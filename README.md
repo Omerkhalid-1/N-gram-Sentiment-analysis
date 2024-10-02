@@ -66,12 +66,10 @@ Enhancements could include:
 This project showcases the fundamental techniques in building and utilizing n-gram models for text prediction and analysis. It serves as a practical application of language modeling in the field of natural language processing.
 
 
+
+
+
 # Task 2: Sentiment Analysis 
-Here's a structured README.md file that outlines the use and functionality of your script. This will help users understand what the code does, how to set it up, and interpret its outputs:
-
-```markdown
-# Sentiment Analysis Models
-
 ## Overview
 This script develops and evaluates unigram, bigram, and trigram models for sentiment analysis using the IMDB reviews dataset. These models predict the sentiment of a text as either positive or negative based on the frequency and sequence of words.
 
