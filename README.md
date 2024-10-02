@@ -116,23 +116,27 @@ The script outputs the following metrics for each model:
 - Similar metrics as the Bigram model, but considers triplets of words.
 
 ## Sample Output
-### Unigram Model
-- Precision: 0.8283 (Negative), 0.8744 (Positive)
-- Recall: 0.8822 (Negative), 0.8177 (Positive)
-- F1-score: 0.8544 (Negative), 0.8451 (Positive)
-- Overall Accuracy: 0.8499
+## Evaluation Metrics
 
-### Bigram Model
-- Precision: 0.8773 (Negative), 0.9019 (Positive)
-- Recall: 0.9047 (Negative), 0.8738 (Positive)
-- F1-score: 0.8908 (Negative), 0.8876 (Positive)
-- Overall Accuracy: 0.8892
+The following table presents the performance metrics for each sentiment analysis model:
 
-### Trigram Model
-- Precision: 0.8880 (Negative), 0.8993 (Positive)
-- Recall: 0.9005 (Negative), 0.8868 (Positive)
-- F1-score: 0.8942 (Negative), 0.8930 (Positive)
-- Overall Accuracy: 0.8936
+| Model   | Metric     | Negative | Positive |
+|---------|------------|----------|----------|
+| Unigram | Precision  | 0.8283   | 0.8744   |
+|         | Recall     | 0.8822   | 0.8177   |
+|         | F1-score   | 0.8544   | 0.8451   |
+|         | **Overall Accuracy** | \multicolumn{2}{c|}{0.8499} |
+| Bigram  | Precision  | 0.8773   | 0.9019   |
+|         | Recall     | 0.9047   | 0.8738   |
+|         | F1-score   | 0.8908   | 0.8876   |
+|         | **Overall Accuracy** | \multicolumn{2}{c|}{0.8892} |
+| Trigram | Precision  | 0.8880   | 0.8993   |
+|         | Recall     | 0.9005   | 0.8868   |
+|         | F1-score   | 0.8942   | 0.8930   |
+|         | **Overall Accuracy** | \multicolumn{2}{c|}{0.8936} |
+
+Note: Precision, Recall, and F1-score are provided for each class ('Negative' and 'Positive'), while the Overall Accuracy represents the overall effectiveness of the model across both classes.
+
 
 ## Conclusion
 These models provide a basic framework for sentiment analysis and can be further improved by incorporating more sophisticated natural language processing techniques.
