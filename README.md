@@ -125,15 +125,15 @@ The following table presents the performance metrics for each sentiment analysis
 | Unigram | Precision  | 0.8283   | 0.8744   |
 |         | Recall     | 0.8822   | 0.8177   |
 |         | F1-score   | 0.8544   | 0.8451   |
-|         | **Overall Accuracy** | \multicolumn{2}{c|}{0.8499} |
+|         | **Overall Accuracy** | 0.8499 |
 | Bigram  | Precision  | 0.8773   | 0.9019   |
 |         | Recall     | 0.9047   | 0.8738   |
 |         | F1-score   | 0.8908   | 0.8876   |
-|         | **Overall Accuracy** | \multicolumn{2}{c|}{0.8892} |
+|         | **Overall Accuracy** | 0.8892 |
 | Trigram | Precision  | 0.8880   | 0.8993   |
 |         | Recall     | 0.9005   | 0.8868   |
 |         | F1-score   | 0.8942   | 0.8930   |
-|         | **Overall Accuracy** | \multicolumn{2}{c|}{0.8936} |
+|         | **Overall Accuracy** | 0.8936 |
 
 Note: Precision, Recall, and F1-score are provided for each class ('Negative' and 'Positive'), while the Overall Accuracy represents the overall effectiveness of the model across both classes.
 
