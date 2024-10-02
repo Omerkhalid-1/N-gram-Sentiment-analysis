@@ -64,3 +64,93 @@ Enhancements could include:
 
 ## Conclusion
 This project showcases the fundamental techniques in building and utilizing n-gram models for text prediction and analysis. It serves as a practical application of language modeling in the field of natural language processing.
+
+
+# Task 2: Sentiment Analysis 
+Here's a structured README.md file that outlines the use and functionality of your script. This will help users understand what the code does, how to set it up, and interpret its outputs:
+
+```markdown
+# Sentiment Analysis Models
+
+## Overview
+This script develops and evaluates unigram, bigram, and trigram models for sentiment analysis using the IMDB reviews dataset. These models predict the sentiment of a text as either positive or negative based on the frequency and sequence of words.
+
+## Dataset
+The script requires the "IMDB Dataset.csv" which contains movie reviews labeled with sentiments. Ensure that the dataset is in the same directory as the script or modify the `file_path` variable accordingly.
+
+## Features
+- **Unigram Model:** Analyzes individual word frequencies to predict sentiment.
+- **Bigram Model:** Analyzes frequencies of word pairs to predict sentiment.
+- **Trigram Model:** Analyzes frequencies of word triplets to predict sentiment.
+- **Performance Metrics:** Calculates precision, recall, F1-score, and overall accuracy for each model.
+
+## Requirements
+- Python 3.x
+- Pandas
+- Collections
+- Math
+
+You can install the required libraries using the following command:
+```bash
+pip install pandas
+```
+
+## Usage
+Run the script from the command line:
+```bash
+python sentiment_analysis_models.py
+```
+The script will execute each model sequentially and display the performance metrics and accuracy for each.
+
+## Performance Metrics
+The script outputs the following metrics for each model:
+
+### Unigram Model
+- **Precision**: Measure of accuracy considering only the relevant data points.
+- **Recall**: Measure of how many truly relevant results are returned.
+- **F1-score**: Weighted average of precision and recall.
+- **Overall Accuracy**: Proportion of total predictions that were correct.
+
+### Bigram Model
+- Similar metrics as the Unigram model, but considers pairs of words.
+
+### Trigram Model
+- Similar metrics as the Bigram model, but considers triplets of words.
+
+## Sample Output
+### Unigram Model
+- Precision: 0.8283 (Negative), 0.8744 (Positive)
+- Recall: 0.8822 (Negative), 0.8177 (Positive)
+- F1-score: 0.8544 (Negative), 0.8451 (Positive)
+- Overall Accuracy: 0.8499
+
+### Bigram Model
+- Precision: 0.8773 (Negative), 0.9019 (Positive)
+- Recall: 0.9047 (Negative), 0.8738 (Positive)
+- F1-score: 0.8908 (Negative), 0.8876 (Positive)
+- Overall Accuracy: 0.8892
+
+### Trigram Model
+- Precision: 0.8880 (Negative), 0.8993 (Positive)
+- Recall: 0.9005 (Negative), 0.8868 (Positive)
+- F1-score: 0.8942 (Negative), 0.8930 (Positive)
+- Overall Accuracy: 0.8936
+
+## Conclusion
+These models provide a basic framework for sentiment analysis and can be further improved by incorporating more sophisticated natural language processing techniques.
+
+## Future Work
+- Implement more complex features like word embeddings.
+- Integrate neural networks to improve predictive accuracy.
+- Develop a user-friendly GUI for real-time sentiment analysis.
+
+## License
+This project is open-sourced under the MIT License.
+```
+
+### Instructions
+1. Replace `sentiment_analysis_models.py` with the actual filename of your script.
+2. Modify the `file_path` in the script or ensure the dataset is in the correct directory.
+3. This README is designed to be clear and user-friendly, guiding users through running the script, understanding its functions, and interpreting its outputs.
+
+
