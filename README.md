@@ -142,10 +142,6 @@ These models provide a basic framework for sentiment analysis and can be further
 - Integrate neural networks to improve predictive accuracy.
 - Develop a user-friendly GUI for real-time sentiment analysis.
 
-## License
-This project is open-sourced under the MIT License.
-```
-
 ### Instructions
 1. Replace `sentiment_analysis_models.py` with the actual filename of your script.
 2. Modify the `file_path` in the script or ensure the dataset is in the correct directory.
